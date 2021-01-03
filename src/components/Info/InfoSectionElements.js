@@ -22,7 +22,11 @@ export const InfoColumn = styled.div `
     width: 550px;
 
     @media screen and (max-width: 768px) {
-        width: 100%;
+        width: 100%!important;
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: calc(100% / 2);
     }
 
 `

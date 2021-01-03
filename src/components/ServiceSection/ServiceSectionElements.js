@@ -23,8 +23,13 @@ export const ServiceColumn = styled.div `
     order: ${({reverse}) => (reverse ? '2' : '1')};
 
     @media screen and (max-width: 768px) {
-        width: 100%;
+        width: 100%!important;
     }
+
+    @media screen and (max-width: 1024px) {
+        width: calc(100% / 2);
+    }
+
     padding: 20px;
 `
 
@@ -33,9 +38,14 @@ export const ServiceColumnRight = styled.div `
     order: ${({reverse}) => (reverse ? '1' : '2')};
 
     @media screen and (max-width: 768px) {
-        width: 100%;
+        width: 100%!important;
         order: ${({reverse}) => (reverse ? '2' : '1')};
     }
+
+    @media screen and (max-width: 1024px) {
+        width: calc(100% / 2);
+    }
+
     padding: 20px;
 `
 
