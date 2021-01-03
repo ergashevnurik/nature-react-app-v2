@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <NavbarSection>
             <NavbarContainer>
-                <NavbarLogo>
+                <NavbarLogo to="/">
                     Logo
                 </NavbarLogo>
                 <NavbarBars>
