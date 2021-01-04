@@ -40,10 +40,11 @@ export const HeroSpan = styled.p `
     text-align: center;
     width: 100%;
     margin-bottom: 10px;
+    text-transform: uppercase;
 `
 
 export const HeroH1 = styled.h1 `
-    font-size: clamp(1.2rem, 5vw, 3rem);
+    font-size: clamp(1.2rem, 100vw, 3rem);
     color: white;
     text-align: center;
     margin-bottom: 20px;

@@ -50,6 +50,7 @@ export const FooterButton = styled.button `
     color: black;
     outline: none;
     border: none;
+    background: #fff;
 `
 
 export const Footerh1 = styled.h1 `
